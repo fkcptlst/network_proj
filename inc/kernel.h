@@ -7,6 +7,7 @@
 #include "tju_tcp.h"
 
 #define MAX_SOCK 32
+// i.e. lhash
 tju_tcp_t* listen_socks[MAX_SOCK];
 tju_tcp_t* established_socks[MAX_SOCK];
 
